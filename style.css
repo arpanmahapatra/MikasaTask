@@ -54,7 +54,7 @@ body{
 .top-nav > nav{
     list-style: none;
     font-size: medium;
-    margin-left: 100px;
+    margin-left: 109px;
    
 }
 a{
@@ -73,7 +73,7 @@ a{
     
 }
 
- .top-nav > nav > form {
+ .top-nav > nav > div {
     display: inline;
     position: relative;
     right: 250px;
@@ -111,7 +111,7 @@ a{
 
 .second-nav > nav > ul > li {
     list-style: circle;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-right: 40px;
 
 }
@@ -141,7 +141,8 @@ a{
     margin-top: 5px;
 }
 .content-bottom{
-
+    width:1243px;
+   height:235px;
     border: 4px solid black;
     background-color: white;
     padding-top:10px;
@@ -150,32 +151,63 @@ display: flex;
 flex-direction: row;
 margin-left: 150px;
 margin-right: 150px;
-margin-top: 10px;
+
+}
+.table{
+    background-color: #32312f;
+    margin-top: 5px;
+    
+    height:425px;
+    width:289px;
+    
+}
+.sale{
+    width:60%
 }
 .right{
-    margin-top: 5px;
+   
     color:#d9d7d8;
-    background-color: grey;
+    margin-left:7px;
+    
+    margin-top:7px;
     border: 1px solid #d9d7d8;
-    height:407px;
-    width:500px;
-    size: 6px;
-    padding-left:15%;
-    padding-right:15%;
+    height:416px;
+    width:278px;
+    font-size: 15px;
+    padding-left:1px; padding-right:22px
     
 }
 .main{
     display: flex;
     flex-direction: row;
+    justify-content:flex-start;
+    height:450px;
+    width:1243px;
     margin-left: 150px;
-    margin-right: 150px;
+    border: 10px solid white; 
+    margin-right: 130px;
 }
 .glass{
     padding:10px;
     border-right: 1px solid #d9d7d8; 
 }
+.fsize19{
+    font-size:19px;
 
+}
+#border-none{
+    border:none;
+}
+.table-head{
+    font-size:29px; text-align:center; padding-top:40px;padding-left: 13px;
+}
+.table-desc{
+    padding-left: 31px; font-size:15px;
+}
+.fsize12{
+    font-size:12px;
 
+}
 .flexrow{
     display: flex;
     flex-direction: row;
@@ -184,4 +216,49 @@ margin-top: 10px;
     margin-right: 150px;
     margin-top: 10px;
 
+}
+
+.main-table{
+       
+    color:  #d9d7d8;
+    list-style: none;
+}
+.main-table >  li{
+    padding-top:4.5px; padding-bottom:4.5px;
+    border-bottom: 1px solid #d9d7d8;
+    size: 9px;
+}
+
+.footerlist{
+    display: flex;
+    position: relative;
+    margin-top:12px;
+    color: #d9d7d8;
+    justify-content: flex-start;
+    list-style: none;
+    margin-left: 108px;
+    font-size: 12px;
+    
+
+}
+.footerlist > li{
+    padding-left: 12px;
+    padding-right: 12px;
+    border-right: 1px solid #d9d7d8;
+}
+.flexrow-sale{
+    display: flex;
+    flex-direction: row;
+}
+.table-link{
+    color:#d9d7d8; text-align: center; padding-left: 31px; font-size: 12px;
+}
+.float-left{
+  float: left;
+}
+.margin-left600{
+    margin-left: 600px;
+}
+.margin-left445{
+    margin-left: 445px;
 }
